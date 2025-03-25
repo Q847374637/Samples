@@ -1,0 +1,20 @@
+2024-08-09 09:40:15.494 +03:00 [INF] Начало процесса обработки выборки Delay
+2024-08-09 09:40:15.524 +03:00 [INF] Начало процесса считывания данных
+2024-08-09 09:40:15.554 +03:00 [ERR] Ошибка (неопознанная). Подробней: System.IO.DirectoryNotFoundException: Не удалось найти часть пути "S:\Exchange\-\Samples\Delay\in".
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   в System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   в System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   в Samples.Selection.ReadData(String path, List`1 dbase, List`1 extensions, List`1 columns, String output, String input) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 360
+   в Samples.Selection.Delay(List`1 pathGet, List`1 extensions, List`1 columns, List`1 finalColumns, List`1 dbase, Int32 i, String colList, String valList) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 46
+   в Samples.Selection.SelectionStart(List`1 pathGet, List`1 extensions, List`1 columns, List`1 finalColumns, List`1 dbase, Int32 i, String colList, String valList) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 26
+2024-08-09 09:41:18.812 +03:00 [INF] Начало процесса обработки выборки Delay
+2024-08-09 09:41:18.835 +03:00 [INF] Начало процесса считывания данных
+2024-08-09 09:41:18.844 +03:00 [ERR] Ошибка (неопознанная). Подробней: System.IO.DirectoryNotFoundException: Не удалось найти часть пути "S:\Exchange\-\Samples\Delay\in".
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   в System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   в System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   в Samples.Selection.ReadData(String path, List`1 dbase, List`1 extensions, List`1 columns, String output, String input) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 360
+   в Samples.Selection.Delay(List`1 pathGet, List`1 extensions, List`1 columns, List`1 finalColumns, List`1 dbase, Int32 i, String colList, String valList) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 46
+   в Samples.Selection.SelectionStart(List`1 pathGet, List`1 extensions, List`1 columns, List`1 finalColumns, List`1 dbase, Int32 i, String colList, String valList) в C:\samples\Samples\Entities\SampleActionEntities\Selection.cs:строка 26

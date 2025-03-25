@@ -1,0 +1,180 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Samples.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="extensions" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">
+              &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                &lt;string&gt;xls&lt;/string&gt;
+                &lt;string&gt;xlsb&lt;/string&gt;
+                &lt;string&gt;xlsm&lt;/string&gt;
+                &lt;string&gt;DBF&lt;/string&gt;
+              &lt;/ArrayOfString&gt;
+            </Value>
+    </Setting>
+    <Setting Name="defaultExtensions" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">
+              &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                &lt;string&gt;xls&lt;/string&gt;
+                &lt;string&gt;xlsb&lt;/string&gt;
+                &lt;string&gt;xlsm&lt;/string&gt;
+                &lt;string&gt;DBF&lt;/string&gt;
+              &lt;/ArrayOfString&gt;
+            </Value>
+    </Setting>
+    <Setting Name="pathGetEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\in\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\out\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="pathGetDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\in\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\out\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="pathCopyEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;L:\Cards\DB2\001\&lt;/string&gt;
+  &lt;string&gt;L:\Cards\DB4\001\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\in\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="pathCopyDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;M:\KREDIT\DB2\001\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\in\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="defaultPathGetEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\in\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\out\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="defaultPathGetDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\in\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\out\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="defaultPathCopyEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;L:\Cards\DB2\001\&lt;/string&gt;
+  &lt;string&gt;L:\Cards\DB4\001\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Easypay\in\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="defaultPathCopyDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;M:\KREDIT\DB2\001\&lt;/string&gt;
+  &lt;string&gt;S:\Exchange\-\Samples\Delay\in\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="columnsEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ID&lt;/string&gt;
+  &lt;string&gt;Орган&lt;/string&gt;
+  &lt;string&gt;Вх № запроса&lt;/string&gt;
+  &lt;string&gt;Исполнитель&lt;/string&gt;
+  &lt;string&gt;Фамилия&lt;/string&gt;
+  &lt;string&gt;Имя&lt;/string&gt;
+  &lt;string&gt;Отчество&lt;/string&gt;
+  &lt;string&gt;Идентификационный номер&lt;/string&gt;
+  &lt;string&gt;Дата рождения&lt;/string&gt;
+  &lt;string&gt;Серия, номер паспорта&lt;/string&gt;
+  &lt;string&gt;База&lt;/string&gt;
+  &lt;string&gt;Номер кошелька&lt;/string&gt;
+  &lt;string&gt;Дата открытия&lt;/string&gt;
+  &lt;string&gt;Остаток&lt;/string&gt;
+  &lt;string&gt;Овердрафт&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="columnsDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ID&lt;/string&gt;
+  &lt;string&gt;Орган&lt;/string&gt;
+  &lt;string&gt;Вх № запроса&lt;/string&gt;
+  &lt;string&gt;Исполнитель&lt;/string&gt;
+  &lt;string&gt;Фамилия&lt;/string&gt;
+  &lt;string&gt;Имя&lt;/string&gt;
+  &lt;string&gt;Отчество&lt;/string&gt;
+  &lt;string&gt;Идентификационный номер&lt;/string&gt;
+  &lt;string&gt;Дата рождения&lt;/string&gt;
+  &lt;string&gt;Серия, номер паспорта&lt;/string&gt;
+  &lt;string&gt;База&lt;/string&gt;
+  &lt;string&gt;Наименование продукта&lt;/string&gt;
+  &lt;string&gt;Номер счета&lt;/string&gt;
+  &lt;string&gt;Валюта&lt;/string&gt;
+  &lt;string&gt;Овердрафт&lt;/string&gt;
+  &lt;string&gt;Номер кошелька&lt;/string&gt;
+  &lt;string&gt;Статус кошелька&lt;/string&gt;
+  &lt;string&gt;Дата открытия&lt;/string&gt;
+  &lt;string&gt;Остаток&lt;/string&gt;
+  &lt;string&gt;Дата последнего зачисления&lt;/string&gt;
+  &lt;string&gt;Дата последней операции&lt;/string&gt;
+  &lt;string&gt;Наименование организации, перечисляющей денежные средства&lt;/string&gt;
+  &lt;string&gt;Арест&lt;/string&gt;
+  &lt;string&gt;Детали ареста&lt;/string&gt;
+  &lt;string&gt;Обременитель&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="finalColumnsEasypay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ID&lt;/string&gt;
+  &lt;string&gt;Орган&lt;/string&gt;
+  &lt;string&gt;Вх № запроса&lt;/string&gt;
+  &lt;string&gt;Исполнитель&lt;/string&gt;
+  &lt;string&gt;Фамилия&lt;/string&gt;
+  &lt;string&gt;Имя&lt;/string&gt;
+  &lt;string&gt;Отчество&lt;/string&gt;
+  &lt;string&gt;Идентификационный номер&lt;/string&gt;
+  &lt;string&gt;Дата рождения&lt;/string&gt;
+  &lt;string&gt;Серия, номер паспорта&lt;/string&gt;
+  &lt;string&gt;Овердравт&lt;/string&gt;
+  &lt;string&gt;Номер кошелька&lt;/string&gt;
+  &lt;string&gt;Дата открытия счета&lt;/string&gt;
+  &lt;string&gt;Остаток&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="finalColumnsDelay" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ID&lt;/string&gt;
+  &lt;string&gt;Орган&lt;/string&gt;
+  &lt;string&gt;Вх № запроса&lt;/string&gt;
+  &lt;string&gt;Исполнитель&lt;/string&gt;
+  &lt;string&gt;Фамилия&lt;/string&gt;
+  &lt;string&gt;Имя&lt;/string&gt;
+  &lt;string&gt;Отчество&lt;/string&gt;
+  &lt;string&gt;Идентификационный номер&lt;/string&gt;
+  &lt;string&gt;Дата рождения&lt;/string&gt;
+  &lt;string&gt;Серия, номер паспорта&lt;/string&gt;
+  &lt;string&gt;Валюта&lt;/string&gt;
+  &lt;string&gt;Овердравт&lt;/string&gt;
+  &lt;string&gt;Остаток&lt;/string&gt;
+  &lt;string&gt;Дата последнего зачисления&lt;/string&gt;
+  &lt;string&gt;Арест&lt;/string&gt;
+  &lt;string&gt;Дата открытия счета&lt;/string&gt;
+  &lt;string&gt;Дата закрытия счета&lt;/string&gt;
+  &lt;string&gt;Дата последней операции&lt;/string&gt;
+  &lt;string&gt;IBAN&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

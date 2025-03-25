@@ -1,0 +1,35 @@
+2024-08-06 10:20:19.123 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:20:19.123 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:20:19.123 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:22:06.854 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:22:06.876 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:22:06.876 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:23:58.850 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:23:58.873 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:23:58.873 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:25:09.403 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:25:09.425 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:25:09.425 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:26:33.206 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:26:33.229 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:26:33.229 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:27:08.593 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:27:08.615 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:27:08.615 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:27:28.673 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:27:28.696 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:27:28.696 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:35:58.172 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 10:35:58.213 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 10:35:58.213 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 10:44:03.224 +03:00 [INF] System.InvalidOperationException: Ошибка проверки файлов для обработки. Ожидаемый файл S:\Exchange\-\Samples\Easypay\in\C2.DBF отсутствует.
+   в Samples.Copy.CheckFile(List`1 pathList) в C:\samples\Samples\Entities\SampleActionEntities\Copy.cs:строка 71
+   в Samples.Copy.CopyFiles(List`1 dbase, List`1 extensions, List`1 pathCopyFrom, List`1 pathCopyTo, Int32 dbaseType, List`1 pathList, Int32 dbaseCounterFrom, Int32 dbaseCounterTo, Int32 PathTo, Int32 pathCopyIndex) в C:\samples\Samples\Entities\SampleActionEntities\Copy.cs:строка 59
+   в Samples.Copy.CopyFiles(List`1 dbase, List`1 extensions, List`1 pathCopyFrom, List`1 pathCopyTo, Int32 dbaseType, List`1 pathList, Int32 dbaseCounterFrom, Int32 dbaseCounterTo, Int32 PathTo, Int32 pathCopyIndex) в C:\samples\Samples\Entities\SampleActionEntities\Copy.cs:строка 57
+   в Samples.MainWindow.EasypaySample() в C:\samples\Samples\MainWindow.xaml.cs:строка 65
+2024-08-06 11:43:18.683 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 11:43:18.711 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 11:43:18.711 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки EasypaySample
+2024-08-06 11:44:23.597 +03:00 [INF] Создание экземпляра класса Samples.Selection завершено успешно
+2024-08-06 11:44:23.618 +03:00 [INF] Создание экземпляра класса Samples.Copy завершено успешно
+2024-08-06 11:44:23.618 +03:00 [INF] Создание экземпляра класса SelectionInstance завершено успешно. Текущий поток выборки DelaySample

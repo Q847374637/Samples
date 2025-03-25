@@ -1,0 +1,23 @@
+﻿<Window x:Class="Samples.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Samples"
+        mc:Ignorable="d"
+        Title="Настройки" Height="350" Width="525">
+    <Grid x:Name="Main">
+        <Button x:Name="SaveSettings" Content="Сохранить" HorizontalAlignment="Left" Margin="412,272,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" IsDefault="True"/>
+        <GroupBox x:Name="delayGroupBox" Header="Delay" HorizontalAlignment="Left" Margin="24,43,0,0" VerticalAlignment="Top" Height="107" Width="463" FontSize="10" FontStyle="Italic"/>
+        <GroupBox x:Name="groupBox_Copy" Header="Easypay" HorizontalAlignment="Left" Margin="24,155,0,0" VerticalAlignment="Top" Height="102" Width="463" FontSize="10" FontStyle="Italic"/>
+        <Label x:Name="settingsLabel" Content="Текущие каталоги входных/выходных данных:" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="463" Background="Transparent" FontSize="13" FontWeight="Bold"/>
+        <Label x:Name="delayInputLabel" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,79,0,0" FontSize="9"/>
+        <Label x:Name="delayOutputLabel" Content="Выходной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,106,0,0" FontSize="9"/>
+        <Label x:Name="easypayInputLabel" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,187,0,0" FontSize="9"/>
+        <Label x:Name="easypayOutputLabel" Content="Выходной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,214,0,0" FontSize="9"/>
+        <Label x:Name="pathGetDelayLabel" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,79,0,0" FontSize="9"/>
+        <Label x:Name="delayInputLabel_Copy1" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,106,0,0" FontSize="9"/>
+        <Label x:Name="delayInputLabel_Copy2" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,187,0,0" FontSize="9"/>
+        <Label x:Name="delayInputLabel_Copy3" Content="Входной каталог:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,214,0,0" FontSize="9"/>
+    </Grid>
+</Window>
